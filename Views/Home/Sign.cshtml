@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Sign";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <a href="./Register">還沒註冊嗎?</a>
+        <form action="logcheck.php" method="post">
+            <input type="text" name="account" value="" placeholder="輸入帳號"><br />
+            <input type="password" name="password" value="" placeholder="輸入密碼"><br />
+            <input type="submit" name="" value="登入">
+        </form>
+
+
+    </div>
+</body>
+</html>
